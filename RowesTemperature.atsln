@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "RowesTemperature", "RowesTemperature.cppproj", "{9C3C622B-59B4-4182-A7FA-3733D8424A25}"
+EndProject
+Project("{E66E83B9-2572-4076-B26E-6BE79FF3018A}") = "adjust", "..\Libraries\DS3231\examples\adjust\adjust.cppproj", "{DBA45660-F438-450D-8AC6-780AB3036A0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C3C622B-59B4-4182-A7FA-3733D8424A25}.Debug|AVR.ActiveCfg = Debug|AVR
+		{9C3C622B-59B4-4182-A7FA-3733D8424A25}.Debug|AVR.Build.0 = Debug|AVR
+		{9C3C622B-59B4-4182-A7FA-3733D8424A25}.Release|AVR.ActiveCfg = Release|AVR
+		{9C3C622B-59B4-4182-A7FA-3733D8424A25}.Release|AVR.Build.0 = Release|AVR
+		{DBA45660-F438-450D-8AC6-780AB3036A0C}.Debug|AVR.ActiveCfg = Debug|AVR
+		{DBA45660-F438-450D-8AC6-780AB3036A0C}.Debug|AVR.Build.0 = Debug|AVR
+		{DBA45660-F438-450D-8AC6-780AB3036A0C}.Release|AVR.ActiveCfg = Release|AVR
+		{DBA45660-F438-450D-8AC6-780AB3036A0C}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
